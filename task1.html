@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .id-card {
+        width: 300px;
+        height: 350px;
+        background-color: rgb(111, 159, 250);
+        border-top: 30px solid aqua;
+        border-bottom: 30px solid aqua;
+      }
+      fieldset{
+        background-color: white;
+        border: none;
+        width: 80%;
+        margin: auto;
+      }
+      legend{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+      }
+      span {
+        font-weight: bold;
+        color: rgb(5, 68, 68);
+      }
+      .info {
+        font-size: 0.8rem;
+        text-align: center;
+      }
+      .name {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .id-card-expiry {
+        margin-top: 4rem;
+        text-align: center;
+
+      }
+      .company {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px 0;
+      }
+
+      .image {
+        width: 40%;
+        display: block;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="id-card">
+      <div class="company">GREEN PLANET</div>
+      <fieldset>
+        <legend>
+            
+            <img
+            class="image"
+            alt=""
+              src="./photo.jpg" 
+             
+              />
+
+        </legend>
+        <div class="name">RUPESH SAI</div>
+        <div class="info">
+          <div>
+              <span>ID</span>:123456789
+          </div>
+          <div>
+              <span>PHONE</span>:+91-9392836367
+          </div>
+          <div>
+              <span>EMAIL</span>:rupeshsaimacharla123@gmail.com
+          </div>
+        </div>
+        <div class="id-card-expiry">
+          <span>JOIN</span>:4/2024 | <span>EXPIRY</span>:8/2027
+        </div>
+    </fieldset>
+    </div>
+  </body>
+</html>
